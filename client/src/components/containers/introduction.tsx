@@ -17,7 +17,7 @@ export const AboutMe = () => {
     <div className="flex flex-row gap-4 py-10 px-20 w-full">
       <div className="flex flex-col gap-4 w-2/3">
         <h1 className="text-7xl font-extrabold tracking-tight bg-gradient-to-r from-green-300 via-blue-500 to-indigo-600 bg-clip-text text-transparent">
-          Hello I'm Tan Loc (Colnat)
+          Hello I am Tan Loc (Colnat)
         </h1>
         <div className="text-3xl font-semibold flex flex-row gap-2 items-center">
           <span>I am a</span>
