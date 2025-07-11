@@ -7,7 +7,6 @@ import {
   DropdownMenuItem,
   DropdownMenuLabel,
   DropdownMenuSeparator,
-  DropdownMenuShortcut,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
 import Image from 'next/image';
@@ -21,7 +20,7 @@ export const AboutMe = () => {
           Hello I'm Tan Loc (Colnat)
         </h1>
         <div className="text-3xl font-semibold flex flex-row gap-2 items-center">
-          <span>I'm a</span>
+          <span>I am a</span>
           <p className="text-3xl font-semibold text-green-500 dark:text-green-400 tracking-wide">
             Fullstack Developer.
           </p>
