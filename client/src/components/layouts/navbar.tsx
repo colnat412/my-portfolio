@@ -8,11 +8,17 @@ export const Navbar = () => {
         <span className="font-bold text-inherit">COLNAT</span>
       </div>
       <div className="flex flex-row gap-10">
-        <Button variant="ghost">Projects</Button>
+        <Button className="cursor-pointer" variant="ghost">
+          Projects
+        </Button>
 
-        <Button variant="ghost">Resume</Button>
+        <Button className="cursor-pointer" variant="ghost">
+          Resume
+        </Button>
 
-        <Button variant="ghost">Contact</Button>
+        <Button className="cursor-pointer" variant="ghost">
+          Contact
+        </Button>
 
         <ModeToggle />
       </div>
